@@ -18,12 +18,12 @@ CLI analytics for Claude Code — reads your local `~/.claude/projects/*.jsonl` 
 ## Install
 
 ```bash
-git clone <repo> ccwise
-cd ccwise
-python3 -m venv .venv
-source .venv/bin/activate
-pip install rich
+curl -fsSL https://raw.githubusercontent.com/burylife/ccwise/main/install.sh | bash
 ```
+
+Then just run `ccwise` — no venv activation needed.
+
+The script clones ccwise to `~/.ccwise` and creates an executable at `/usr/local/bin/ccwise`. Run the same command again to upgrade.
 
 ## Usage
 

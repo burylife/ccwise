@@ -18,12 +18,12 @@ Claude Code 本地用量分析工具 — 读取 `~/.claude/projects/*.jsonl` 数
 ## 安装
 
 ```bash
-git clone <repo> ccwise
-cd ccwise
-python3 -m venv .venv
-source .venv/bin/activate
-pip install rich
+curl -fsSL https://raw.githubusercontent.com/burylife/ccwise/main/install.sh | bash
 ```
+
+安装完成后直接运行 `ccwise`，无需手动激活虚拟环境。
+
+脚本会将 ccwise 克隆到 `~/.ccwise`，在 `/usr/local/bin/ccwise` 创建可执行入口。再次运行同一命令可升级到最新版。
 
 ## 使用
 
