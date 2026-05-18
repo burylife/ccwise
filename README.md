@@ -4,6 +4,8 @@ Claude Code 本地用量分析工具 — 读取 `~/.claude/projects/*.jsonl` 数
 
 英文版：[README.en.md](README.en.md)
 
+> **Keywords:** Claude Code analytics · Anthropic token cost tracker · claude usage dashboard · LLM cost breakdown · claude-code CLI tool · AI spending tracker
+
 ## 功能
 
 - **精准费用计算** — 按实际模型（Opus / Sonnet / Haiku）分别定价，覆盖四种 token 类型：input、cache_write、cache_read、output

@@ -4,6 +4,8 @@ CLI analytics for Claude Code — reads your local `~/.claude/projects/*.jsonl` 
 
 中文版：[README.md](README.md)
 
+> **Keywords:** Claude Code analytics · Anthropic token cost tracker · claude usage dashboard · LLM cost breakdown · claude-code CLI tool · AI spending tracker
+
 ## What it does
 
 - **Accurate cost calculation** — prices each session by actual model (Opus / Sonnet / Haiku), covering all four token types: input, cache_write, cache_read, output
